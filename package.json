@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "main": "sum.js",
   "scripts": {
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "jest": "^30.0.5",
     "prettier": "^3.6.2"
   }
 }
